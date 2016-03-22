@@ -1,4 +1,4 @@
-### An example of usage
+### Example of usage
 ```javascript
 var structure = [
     "cars", // a node will be created with id == value == "node 1"
@@ -17,8 +17,16 @@ var structure = [
         ]
     }
 ]
+/** 
+ * cars
+ * bikes
+ * |_expensive
+ * |_cheap
+ *     |_For children
+ *     |_For teens
+*/
 var tree = new Tree(structure); // create Tree with specified structure
 var html = tree.render(); // render tree html
-tree.selected({includeLeaves: true | false}); // get selected items.
-// if includeLeaves == false then in the case all leaves of a node are included then only parent node will be returned
+document.body.appendChild(html);
+tree.selected(); // get selected items.
 ```
