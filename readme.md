@@ -1,3 +1,7 @@
+### Intro
+The plugin weight only 1kB gzipped and has no dependecies.
+Demo is available here: [Tree.js](http://akwuh.me/tree.js)
+
 ### Example of usage
 ```javascript
 var structure = [
