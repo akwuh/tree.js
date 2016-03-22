@@ -1,0 +1,32 @@
+{
+  "name": "tree.js",
+  "version": "1.0.0",
+  "description": "An extremely lightweight js library for tree visualization",
+  "main": "tree.js",
+  "scripts": {
+    "start": "./node_modules/.bin/gulp webserver",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akwuh/tree.js.git"
+  },
+  "keywords": [
+    "tree"
+  ],
+  "author": "jakwuh <jakwuh@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akwuh/tree.js/issues"
+  },
+  "homepage": "https://github.com/akwuh/tree.js#readme",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "browserify": "^13.0.0",
+    "gulp": "^3.9.1",
+    "gulp-util": "^3.0.7",
+    "gulp-webserver": "^0.9.1",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
